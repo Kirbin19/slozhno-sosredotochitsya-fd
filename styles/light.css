@@ -9,8 +9,44 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+    --font-family:  'IBM Plex mono', monospace;
+    --font-size: 18px;
+    --font-weight: 700;
+    --font-weight-1: 400;
+    --line-height: 23.4px;
+    --bg-img: url(../images/cover-image-light.png);
+    --bg-color: #fff1f7;
+    --bg-color-title: #353430;
+    --accent-color: #ff8dcb;
+    --text-title: #ffc2e6;
+    --text-discription-color: #353430;
+    --border-color: #353430;
+    --border-color-hover: rgba(50, 49, 45, 0.4);
+    --rec-color: transparent;
+    --point-color: transparent;
+    --point-shadow-color: transparent;
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --font-family:  'IBM Plex mono', monospace;
+    --font-size: 18px;
+    --font-weight: 700;
+    --font-weight-1: 400;
+    --line-height: 23.4px;
+    --bg-img: url(../images/cover-image-light.png);
+    --bg-color: #fff1f7;
+    --bg-color-title: #353430;
+    --accent-color: #ff8dcb;
+    --text-title: #ffc2e6;
+    --text-discription-color: #353430;
+    --border-color: #353430;
+    --border-color-hover: rgba(50, 49, 45, 0.4);
+    --rec-color: transparent;
+    --point-color: transparent;
+    --point-shadow-color: transparent;
+  }
+}
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
