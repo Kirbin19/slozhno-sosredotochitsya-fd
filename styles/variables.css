@@ -4,7 +4,7 @@
 */
 
 :root {
-  --font-family:  'IBM Plex mono', monospace;
+  --font-family: "IBM Plex mono", monospace;
   --font-size: 18px;
   --font-weight: 700;
   --font-weight-1: 400;
@@ -20,4 +20,4 @@
   --rec-color: #ff0070;
   --point-color: #ff0070;
   --point-shadow-color: #ff0070;
-  }
+}
