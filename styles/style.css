@@ -69,7 +69,7 @@
 .title-decor-list {
   color: var(--bg-color-title, #000028);
   font-family: var(--font-family, monospace);
-  font-weight: var(--font-weight-1, 400);
+  font-weight: var(--font-weight-regular, 400);
   font-size: var(--font-size, 18px);
   background-color: var(--accent-color, #ff0070);
 }
@@ -177,7 +177,7 @@
 .description {
   color: var(--text-discription-color, #f1b2ce);
   font-family: var(--font-family, monospace);
-  font-weight: var(--font-weight-1, 400);
+  font-weight: var(--font-weight-regular, 400);
   font-size: var(--font-size, 18px);
   line-height: var(--line-height, 23.4px);
 }
@@ -235,7 +235,7 @@
 }
 
 .description-link:hover {
-  border: 1px solid var(--border-color, #ff0070);
+  border: 1px solid var(--text-discription-color, #f1b2ce);
   cursor: pointer;
 }
 
@@ -244,7 +244,7 @@
 }
 
 .description-link:focus-visible {
-  border-bottom: 1px solid var(--border-color, #ff0070);
+  border-bottom: 1px solid var(--text-discription-color, #f1b2ce);
 }
 
 /* Адаптив >= 768px */
